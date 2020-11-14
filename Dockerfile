@@ -5,6 +5,7 @@ ENV HOME /root
 
 LABEL maintainer="FoRTu" maintainer.website="https://github.com/FoRTu"
 
+# Update > Instal dependencies >Build > clean unnecessary packages
 RUN apt-get update && \
 apt-get install curl swig ruby scons git build-essential libreadline-dev libssl-dev lua5.1 liblua5.1-0 pwgen -yq && \
 mkdir -p /opt/source/adchpp && \
