@@ -1,4 +1,5 @@
 # 🐋 Docker + *'ADCH++*'
+[![Docker Pulls count](https://img.shields.io/docker/pulls/fortu/adchpp.svg?label=Docker%20Pulls&color=brightgreen)](https://hub.docker.com/r/fortu/adchpp)
 
 With this *Dockerfile* you will generate image of [ADCH++](https://adchpp.sourceforge.io/), a hub software for the ADC network that use [ADC protocol](https://en.wikipedia.org/wiki/Advanced_Direct_Connect).
 
